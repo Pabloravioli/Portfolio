@@ -54,7 +54,7 @@ export default function Contact({ profile }) {
           icon={<PhoneIcon />}
           label="Teléfono"
           value={profile.phone}
-          href={`tel:${profile.phoneLink}`}
+          href={profile.phoneLink}
         />
         <ContactItem
           icon={<LinkedinIcon />}

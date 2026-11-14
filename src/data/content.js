@@ -6,19 +6,18 @@ export const profile = {
   tagline:
     "Soy estudiante universitario de desarrollo de software, con muchas ganas de aprender y de seguir desarrollándome. Tengo experiencia con JavaScript, JAVA, Node.js y Python, dispuesto a nuevos desafios.",
 
-  // Foto: copiá tu imagen en la carpeta /public (ej: public/foto.jpg)
-  // y poné su nombre acá. Si no querés foto, dejá null y se muestran tus iniciales.
+ 
   photo: "pic.jpg",
 
   email: "pabloespinosa888@gmail.com",
-  phone: "+54 9 11 3581 9824", // como querés que se vea
-  phoneLink: "+5491135819824", // solo números y +, sin espacios (para el botón de llamar)
+  phone: "+54 9 11 3581 9824",
+  phoneLink: "https://wa.me/5491135819824", 
   linkedin: "https://www.linkedin.com/in/pablo-espinosa-450290258/",
   github: "https://github.com/Pabloravioli",
 
-  // Copiá tu CV en /public con este nombre (o cambiá el nombre acá)
+  
   cv: "Pablo Espinosa.pdf",
-  cvDownloadName: "Pablo Espinosa.pdf", // nombre con el que se descarga
+  cvDownloadName: "Pablo Espinosa.pdf", 
 };
 
 export const about = {
@@ -79,7 +78,7 @@ export const projects = [
   learned:
     "Aprendí a diseñar y construir una API con Node.js y Express, a guardar datos en una base de datos, a programar tareas automáticas con cron y a enviar datos con peticiones POST. También entendí cómo funciona un servidor y nociones de seguridad, como configurar CORS, y cómo conectar todo con un frontend en React.",
   tech: ["JavaScript", "Node.js", "Express", "MongoDB", "React", "Vite", "Tailwind CSS", "Chart.js"],
-  repo: "https://github.com/tu-usuario/tu-repositorio",
+  repo: "https://github.com/Pabloravioli",
   demo: "",
 },
   // {
